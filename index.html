@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<style>
+.cookie{
+position: fixed;
+background-color: #333;
+margin-left: 40vw;
+color: #fff;
+}
+</style>
+
+<title>Electo's Awesome Hopscotch News</title>
+
+<script>
+function poof() {
+document.getElementById("cookie").style="display: none;";
+document.getElementById('vid').style='display:block';
+}
+</script>
+
+</head>
+<body>
+
+<div id='cookie' class="cookie"><h1>
+Accept Cookies?<br>
+<button onClick="poof();">yes</button>
+<button onClick="poof();">no</button>
+</h1></div>
+
+<iframe id="vid" src="https://www.youtube-nocookie.com/embed/dQw4w9WgXcQ?&amp;enablejsapi=1&amp;autoplay=1&amp;mute=1" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen="" height="300px" width="500px" style="display: none;"></iframe>
+</body>
+</html>

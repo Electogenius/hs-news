@@ -3,7 +3,7 @@
 
 <head>
   <style>
-    .cookie, #vid {
+    .cookie, #vid, #tb {
       position: fixed;
       background-color: #000;
       left: 50vw;
@@ -35,7 +35,7 @@
     }
     </style>
 
-<title>Electo's Awesome Hopscotch News</title>
+<title>News but better (tm)</title>
 
 <script>
   setInterval(()=>{
@@ -44,6 +44,8 @@
       opacity: 1;
       transition: opacity 2s;
         `
+        let tb=document.createElement("div")
+        tb.id="tb"
       }
     },500)
   </script>
